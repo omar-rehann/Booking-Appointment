@@ -15,9 +15,9 @@ export default function LoginPage() {
         }
     }, [isSignedIn, router]);
   return (
-    <div className="min-h-screen grid grid-cols-2">
+    <div className="min-h-screen grid md:grid-cols-2">
       {/* Left Side */}
-      <div className="  h-[100vh]">
+      <div className="   h-[100vh]">
         <img
           src="https://media.istockphoto.com/id/1319031310/photo/doctor-writing-a-medical-prescription.webp?a=1&b=1&s=612x612&w=0&k=20&c=NjsxMl8GGuQhGh5Pf1DMndLw4UoS2-lTLJuLpEeZvK8="
           alt="Login"
