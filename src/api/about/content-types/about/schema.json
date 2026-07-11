@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "Categories",
+    "description": "Write about yourself and the content you create"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NameCategoires": {
+      "type": "string",
+      "required": true
+    },
+    "IconCategoriess": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
